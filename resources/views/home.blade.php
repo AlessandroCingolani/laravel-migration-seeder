@@ -13,7 +13,7 @@
 <body>
     <main>
         <div class="container">
-
+            <h1 class="text-center text-success my-3">Today’s trains</h1>
             <table class="table">
                 <thead>
                     <tr>
