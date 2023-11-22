@@ -10,7 +10,7 @@ class TrainController extends Controller
 {
     public function index()
     {
-        $trains = Train::where('date', '>=', Carbon::today())->get();
+        $trains = Train::where('departure_time', '>=', Carbon::today())->get();
         if (empty($trains)) {
             abort(404);
         }
